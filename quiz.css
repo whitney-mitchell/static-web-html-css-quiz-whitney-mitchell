@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+article {
+	border: 1px solid lightblue;
+	width: 30%;
+	float: left;
+	margin:1.5%;
+	padding: 0;
+	height: 100%;
+}
+
+.product-name {
+	border: 1px dotted lightgray;
+	text-align: center;
+	font-size: 15px;
+}
+
+h1 {
+	margin: 1% 4%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding:0 0 20px 0;
+	max-width: 80%;
+	max-height: 50%;
+}
+
+.description {
+	text-align: justify;
+	margin: 10px 5px;
+}
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.product-specs,
+.product-pricing {
+	margin: 10px 5px;
+	font-weight: bold;
+	font-size: .8rem;
+	line-height: 10%;
+}
+
+.dates-valid {
+	padding: 10px 0;
+}
